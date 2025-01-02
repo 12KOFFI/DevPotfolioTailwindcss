@@ -32,16 +32,16 @@
       <i class="fas fa-bars"></i>
     </button>
   </nav>
-  <ul class="hidden flex-col items-center bg-slate-50 fixed top-20 left-0 w-full shadow-xl z-10" id="dropdown-menu">
-    <li class="border-b w-full text-center py-4"><a href="#acceuil">Accueil</a></li>
-    <li class="border-b w-full text-center py-4"><a href="#about">Qui suis-je ?</a></li>
-    <li class="border-b w-full text-center py-4"><a href="#projet">Projets</a></li>
-    <li class="w-full text-center py-4"><a href="#contact">Contact</a></li>
+  <ul class="hidden flex-col items-center bg-slate-50 fixed top-20 left-0 w-full shadow-xl z-10 " id="dropdown-menu" >
+    <li class="border-b w-full text-center py-4 hover:bg-amber-100"><a href="#acceuil" class="hover:text-amber-600">Accueil</a></li>
+    <li class="border-b w-full text-center py-4 hover:bg-amber-100"><a href="#about" class="hover:text-amber-600">Qui suis-je ?</a></li>
+    <li class="border-b w-full text-center py-4 hover:bg-amber-100"><a href="#projet" class="hover:text-amber-600">Projets</a></li>
+    <li class="w-full text-center py-4  hover:bg-amber-100"><a href="#contact" class="hover:text-amber-600">Contact</a></li>
   </ul>
 </header>
 <body class="overflow-x-hidden">
 <main>
-  <section class="bg-gradient-to-t from-yellow-200 mb-20 pb-16 pt-20" id="acceuil">
+  <section class="bg-gradient-to-t from-yellow-200  pb-16 pt-20" id="acceuil">
     <div class="container mx-auto px-4">
       <div class="grid grid-cols-1 lg:grid-cols-2 items-center mt-16">
         <div>
@@ -60,7 +60,7 @@
     </div>
   </section>
 
-  <section class="mb-28" id="about">
+  <section class="mb-20 bg-red-50 p-10" id="about">
     <div class="container mx-auto px-4">
       <div class="grid grid-cols-1 lg:grid-cols-2 gap-10 items-center">
         <div class="flex justify-center">
@@ -72,6 +72,58 @@
         </div>
       </div>
     </div>
+
+    <div class="container ">
+      <div class="grid grid-cols-1  lg:grid-cols-1 gap-10 items-center ">
+        <h1 class="font-mono text-4xl text-center pt-10 ">Competance</h1>
+        <p class="font-thin text-2xl text-center p-2">Durant tout mon parcours de développeur, j'ai eu à étudier plusieurs technologies de programmation mais 
+          je résume sur les technologies et applications que j'ai l'habitude d'utiliser dans mon quotidien</p>
+      
+        
+  <div class="deplacement-progress-bar mt-20 relative w-full px-4 ">
+    <p class="absolute bottom-5"><i class="fa-brands fa-html5 fa-2xl m-2" style="color: #f23607;"></i>HTML5</p>
+    <div class="progress-bar rounded-2xl bg-zinc-200 h-3 lg:w-4/5">
+      <div class="proress-color bg-orange-600 w-[80%] h-3">
+
+      </div>
+    </div>
+
+      </div>
+
+      <div class="deplacement-progress-bar mt-16 relative w-full px-4">
+        <p class="absolute bottom-5 "><i class="fa-brands fa-css3-alt fa-2xl m-2" style="color: #03b045;"></i>CSS3</p>
+        <div class="progress-bar rounded-2xl bg-zinc-200 lg:w-4/5 h-3">
+          <div class="proress-color bg-green-600 w-[70%] h-3">
+      </div>
+        </div>
+      </div>
+    
+      <div class="deplacement-progress-bar mt-16 relative w-full px-4">
+        <p class="absolute bottom-5 left-16 "> <i class="relative right-14 top-8"><img src="image/tail.png" alt="" class="w-12"></i> tailwindcss</p>
+        <div class="progress-bar rounded-2xl bg-zinc-200 lg:w-4/5 h-3">
+          <div class="proress-color bg-blue-400 w-1/2 h-3">
+       </div>
+        </div>
+      </div>
+    
+      <div class="deplacement-progress-bar mt-16 relative w-full px-4">
+        <p class="absolute bottom-5"> <i class="fa-brands fa-bootstrap fa-2xl m-2" style="color: #712ef8;"></i>Bootstap5</p>
+        <div class="progress-bar rounded-2xl bg-zinc-200 lg:w-4/5 h-3">
+          <div class="proress-color bg-[#712ef8] w-[80%] h-3">
+        </div>
+        </div>
+      </div>
+    
+      <div class="deplacement-progress-bar mt-16 relative w-full px-4">
+        <p class="absolute bottom-5"><i class="fa-brands fa-js fa-xl m-2" style="color: #FFD43B;"></i>JS</p>
+        <div class="progress-bar rounded-2xl bg-zinc-200 lg:w-4/5 h-3">
+          <div class="proress-color bg-yellow-400 w-1/2 h-3">
+       </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
   </section>
 
   <section class="text-center mb-28" id="projet">
