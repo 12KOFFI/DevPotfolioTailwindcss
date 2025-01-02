@@ -1,0 +1,204 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="image/icon.png" type="image/x-icon">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+   integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+   crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<header>
+  <nav class="flex justify-around items-center bg-slate-50 h-20 shadow-xl fixed w-full z-20">
+    <div class=" mt-2 font-bold text-3xl"> Isaac-<span class="bg-amber-400 shadow-xl text-white rounded-xl text-[2rem] p-0">stone</span></div>
+    <div class="mt-2">
+      <ul class="flex gap-3 font-medium">
+        <li class="hover:border-b-4 hover:border-amber-400"><a href="#acceuil">Acceuil</a></li>
+        <li class="hover:border-b-4 hover:border-amber-400"><a href="#about">Qui suis je?</a></li>
+        <li class="hover:border-b-4 hover:border-amber-400"><a href="#projet">Projet</a></li>
+        <li class="hover:border-b-4 hover:border-amber-400"> <a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+</header>
+<body class="overflow-x-hidden"> <!-- overflow-x-hidden  permet d'empecher le defilement horizontal sur petit ecran-->
+<main>
+  <section class="bg-gradient-to-t from-yellow-200  mb-20 pb-16 pt-10" id="acceuil">
+   <div class="container ">
+    <div class=" grid-rows-1 flex justify-center">
+      <div class="grid grid-cols-1 lg:grid-cols-2 mt-[5rem]">
+      <div class="col1 my-20 cols: pl-16">
+        <p class="text-2xl font-mono">Salut , je suis</p>
+        <h1 class="font-bold text-7xl mb-2">Isaac-Koffi</h1> 
+        <p class="text-3xl font-mono">Developpeur-web</p> <br>
+        <div class="flex gap-x-5">
+          <a href="#contact"> <button type="submit" class="bg-amber-500 text-white rounded-xl p-2 text-lg hover:bg-amber-400 shadow-xl w-40"> Contactez-moi</button></a>
+          <a href="cv/Les Soleils des independances Kourouma Ahmadou.pdf" download="Soleils des independances Kourouma Ahmadou.pdf"> <button type="submit" class="bg-zinc-600 text-white rounded-xl p-2 text-lg hover:bg-zinc-400 shadow-xl w-40">Mon-Cv</button> </a>
+        </div>
+        </div>
+     
+      <div class="col2">
+        <img src="image/im0.jpg" alt="" class="w-[30rem] rounded-xl">
+      </div>
+
+    </div>
+    </div>
+   </div>
+  
+  </section>
+
+
+
+  <section class="mb-16" id="about">
+    
+      <div class="grid-rows-1 flex justify-center items-center">
+        <div class="grid grid-cols-1  sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-2">
+        <div class="div  rounded-2xl bg-amber-50 shadow-2xl  lg:w-[60%] lg:ml-12 flex justify-center p-5">
+          <img src="image/image.jpg" alt="" class="w-[90%] rounded-2xl shadow-xl">
+        </div>
+        <div class="div mt-10">
+          <h1 class="text-center font-mono text-4xl mb-4">Qui suis-je ?</h1>
+          <p class="font-thin text-2xl text-justify leading-relaxed p-6 lg:p-0">Passionné par le développement web, je suis un apprenant
+             en pleine exploration du langage JavaScript, motivé par la découverte et
+              la création. Pianiste amateur, j’apprécie aussi l’harmonie que l’on peut
+               retrouver dans la musique comme dans le code. Toujours prêt à relever de nouveaux défis, 
+            je m’efforce de conjuguer créativité et rigueur dans tout ce que j’entreprends.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div  class="text-center mt-10">
+<h1 class="font-mono text-4xl mb-4">Competance</h1>
+  <p class="font-thin text-xl lg:mx-20 mx-4">Durant tout mon parcours de développeur, j'ai eu à étudier plusieurs technologies de programmation mais 
+    je résume sur les technologies et applications que j'ai l'habitude d'utiliser dans mon quotidien</p>
+
+
+    <div class="grid grid-cols-1 lg:mx-10 lg:ml-44 mx-5">
+<div class="flex flex-wrap  text-2xl font-mono">
+  <div class="deplacement-progress-bar mt-20 relative w-full lg-">
+    <p class="absolute bottom-5"><i class="fa-brands fa-html5 fa-2xl m-2" style="color: #f23607;"></i>HTML5</p>
+    <div class="progress-bar rounded-2xl bg-zinc-200 h-3 lg:w-4/5">
+      <div class="proress-color bg-orange-600 w-[80%] h-3"></div>
+    </div>
+  </div>
+  
+  <div class="deplacement-progress-bar mt-16 relative w-full">
+    <p class="absolute bottom-5 "><i class="fa-brands fa-css3-alt fa-2xl m-2" style="color: #03b045;"></i>CSS3</p>
+    <div class="progress-bar rounded-2xl bg-zinc-200 lg:w-4/5 h-3">
+      <div class="proress-color bg-green-600 w-[70%] h-3"></div>
+    </div>
+  </div>
+
+  <div class="deplacement-progress-bar mt-16 relative w-full">
+    <p class="absolute bottom-5 left-16 "> <i class="relative right-14 top-8"><img src="image/tail.png" alt="" class="w-12"></i> tailwindcss</p>
+    <div class="progress-bar rounded-2xl bg-zinc-200 lg:w-4/5 h-3">
+      <div class="proress-color bg-blue-400 w-1/2 h-3"></div>
+    </div>
+  </div>
+
+  <div class="deplacement-progress-bar mt-16 relative w-full">
+    <p class="absolute bottom-5"> <i class="fa-brands fa-bootstrap fa-2xl m-2" style="color: #712ef8;"></i>Bootstap5</p>
+    <div class="progress-bar rounded-2xl bg-zinc-200 lg:w-4/5 h-3">
+      <div class="proress-color bg-[#712ef8] w-[80%] h-3"></div>
+    </div>
+  </div>
+
+  <div class="deplacement-progress-bar mt-16 relative w-full">
+    <p class="absolute bottom-5"><i class="fa-brands fa-js fa-xl m-2" style="color: #FFD43B;"></i>JS</p>
+    <div class="progress-bar rounded-2xl bg-zinc-200 lg:w-4/5 h-3">
+      <div class="proress-color bg-yellow-400 w-1/2 h-3"></div>
+    </div>
+  </div>
+  </div>
+</div>
+
+ </section>
+
+
+
+
+ <section class="prjet text-center m-10" id="projet">
+  <h1 class="font-mono text-4xl mb-4">Mes Realisations</h1>
+<p>Je réalise des projets en JavaScript full-stack pour apprendre et créer des solutions innovantes.</p>
+  <p class="my-8 bg-zinc-100 text-xl font-mono">Site web</p>
+     <div class="grid-rows-1 flex justify-center">
+      <div class="grid grid-cols-1 lg:grid-cols-2 gap-5">
+  
+  
+  <div class="bg-amber-100   rounded-2xl shadow-xl hover:bg-blue-300">
+    <p class="font-bold mt-1 hover:text-red-500"><i class="fa-solid fa-link fa-2xl"></i><a href="https://shop-stone.vercel.app/" target="_blank">Site de Boutique</a></p>
+    <img src="image/1.png" alt="" class="hover:scale-110">
+  </div>
+  <div class="bg-amber-100  rounded-2xl shadow-xl hover:bg-amber-300">
+    <p class="font-bold mt-1 hover:text-red-500"><i class="fa-solid fa-link fa-2xl"></i><a href="https://restaurent-au41jrasf-12koffis-projects.vercel.app/" target="_blank">Site de Restaurant</a></p>
+    <img src="image/2.png" alt=""  class="hover:scale-110">
+  </div>
+
+</div>
+</div>
+
+ </section>
+
+
+ <section class="contact text-center" id="contact">
+  <h1 class="text-4xl font-mono mb-4">Prenez un rendez-vous</h1>
+  <p class="text-lg font-thin m-6">Vous avez un projet à réaliser ou une question à poser ? N’hésitez pas à me contacter pour en discuter.</p>
+ <div class="grid-rows-1 flex justify-center items-center border-2 ">
+  <div class="grid grid-cols-1 lg:grid-cols-2">
+  
+    <div class="bg-amber-100 lg:w-[90%] lg:ml-10 h-[31rem] rounded-2xl shadow-xl mb-10">
+      <form action="" class="p-5">
+        <input type="text" placeholder="Nom complet" class="w-4/5 p-2 rounded-xl mb-2">
+        <input type="email" placeholder="address Email" class="w-4/5 p-2 rounded-xl mb-2">
+        <input type="email" placeholder="Numero-watshap" class="w-4/5 p-2 rounded-xl mb-2">
+        <textarea name="" id="" cols="30" rows="10" placeholder="Message" class="w-4/5 p-2 rounded-xl mb-2"></textarea>
+        
+        <button type="submit" class="bg-amber-500 text-white rounded-xl p-2 text-lg hover:bg-amber-400 shadow-xl w-1/2">Envoyer</button>
+     
+      </form>
+    </div>
+    <div class="bg-amber-100 lg:w-[90%] h-[31rem] rounded-2xl shadow-xl">
+      <iframe src="https://www.google.com/maps/embed?pb=!1m23!1m12!1m3!1d31779.95767995844!2d-4.092723199999999!3d5.3411839999999975!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m8!3e0!4m0!4m5!1s0xfc1eba131366553%3A0xbb6747e85334c6ea!2sLe%20Plateau%2C%20Abidjan!3m2!1d5.3233179999999996!2d-4.0235718!5e0!3m2!1sfr!2sci!4v1735773893943!5m2!1sfr!2sci" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    
+    </div>
+  
+  </div>
+</div>
+ </section>
+</main>
+
+<footer class="bg-slate-950 text-center p-5 text-white mt-16">
+  <div class=" mt-2 font-bold text-3xl"> Isaac-<span class="bg-amber-400 shadow-xl text-white rounded-xl text-[2rem] p-0">stone</span></div>
+<div class="positionfooter flex justify-around  items-center m-5">
+ 
+  <div class="div text-xl font-mono">
+    <h1>Contactez-nous </h1> <br>
+    <p>Adresse : Yopougon, Abidjan, Côte d'Ivoire <br>
+      Téléphone : +225 0141382595 <br>
+      Courriel : isaacndri5@gmail.com</p>
+  </div>
+  <div class="text-xl">
+    <h2 class="p-5 font-mono">Réseaux sociaux</h2>
+    <div class="flex gap-5">
+      <i class="fa-brands fa-facebook fa-2x"></i>
+      <i class="fa-brands fa-twitter fa-2x"></i>
+      <i class="fa-brands fa-instagram fa-2x"></i>
+      <i class="fa-brands fa-linkedin fa-2x"></i>
+      <i class="fa-brands fa-github fa-2x"></i>
+
+  </div>
+
+</div>
+</div>
+<div class="flex  justify-center gap-2 my-10 text-xl font-mono">
+  <i class="fa-regular fa-bookmark fa-xl"></i>
+  <p>Citation personnelle :
+  "La créativité, c'est l'intelligence qui s'amuse." <span class="font-bold text-2xl">Albert Einstein</span></p></div>
+ <p class="font-mono text-sm"> &copy; 2025  Isaac-stone. Tous droits réservés.</p>
+</footer>
+
+ 
+</body>
+</html> 
